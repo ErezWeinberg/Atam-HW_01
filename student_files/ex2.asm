@@ -2,3 +2,4 @@
 
 .section .text
 _start:
+
