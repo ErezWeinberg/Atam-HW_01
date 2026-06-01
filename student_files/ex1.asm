@@ -5,7 +5,7 @@ _start:
 
 movq $0, %rax # counter
 movq $0, %rdx # i
-lea str(%rip), %rbx # rbx = str&
+lea str(%rip), %rbx # rbx = &str
 
 loop_HW1:
     movzbq (%rbx, %rdx, 1), %rcx
